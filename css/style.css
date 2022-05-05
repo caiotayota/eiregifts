@@ -18,6 +18,10 @@ a:hover {
     color: unset;
 }
 
+.row {
+    --bs-gutter-x: 0;
+}
+    
 
 /* Header */
 
@@ -37,14 +41,15 @@ a:hover {
     margin: 3px 10px 0;
 }
 
-/* .carousel-control-prev button {
-    padding: 10px;
-  font-size: 20px;
-  background-color: transparent;
-  cursor: pointer;
-} */
+.logo {
+    margin-left: 25px;
+}
 
 
+.navbar-nav input {
+    font-size: 14px;
+    
+}
 
 /* Carousel */
 
@@ -53,24 +58,27 @@ a:hover {
     height: 60%;
 }
 
+.carousel-item button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 .first-carousel {
     background-color: #cbf8de;
-    /* height: 70vh; */
 }
 
 .second-carousel {
     background-color: #dfdfdf;
-    /* height: 80vh; */
 }
 
 .third-carousel {
     background-color: #ffcc89;
-    /* height: 80vh; */
 }
 
 .fourth-carousel {
     background-color: #fcf2be;
-    /* height: 80vh; */
 }
 
 .description {
@@ -85,13 +93,33 @@ a:hover {
 }
 
 
+/* Newsletter */
 
+.newsletter {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.newsletter h2{
+    font-size: 46px;
+    /* display: flex;
+    flex-direction: column; */
+}
 
 /* Footer */
 
 .footer-container {
-    margin-top: 20px;
+    padding: 30px;
+    background-color: #eeeeee;
 }
+
+
 
 .items {
     display: flex;
@@ -108,4 +136,13 @@ a:hover {
 
 .contact {
     margin-left: 13px;
+}
+
+.formsize input{
+    width: 80vh;
+}
+
+.formsize button {
+    margin-top: 10px;
+    background-color: var(--color-primary);
 }
