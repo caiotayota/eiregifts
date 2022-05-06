@@ -109,7 +109,8 @@ a:hover {
     padding-top: 30px;
     padding-bottom: 50px;
     font-size: 20px;
-    height: 60vh;
+    /* max-height: fit-content; */
+    
 }
 
 .newsletter div {
@@ -345,10 +346,15 @@ a:hover {
     .carousel-inner {
         height: fit-content;
         overflow: visible;
-        min-width: 300px;   
+        min-width: 300px;
     }
 
     .login-wrapper {
         width: 95%;
+    }
+
+    .formsize {
+        width: 95%;
+        padding: 10px;
     }
 }
