@@ -21,7 +21,7 @@ a:hover {
 .row {
     --bs-gutter-x: 0;
 }
-    
+
 
 /* Header */
 
@@ -48,7 +48,7 @@ a:hover {
 
 .navbar-nav input {
     font-size: 14px;
-    
+
 }
 
 /* Carousel */
@@ -100,16 +100,14 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-  flex-direction: column;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  font-size: 20px;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 20px;
 }
 
-.newsletter h2{
+.newsletter h2 {
     font-size: 46px;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 /* Footer */
@@ -118,8 +116,6 @@ a:hover {
     padding: 30px;
     background-color: #eeeeee;
 }
-
-
 
 .items {
     display: flex;
@@ -138,11 +134,95 @@ a:hover {
     margin-left: 13px;
 }
 
-.formsize input{
+.formsize input {
     width: 80vh;
 }
 
 .formsize button {
     margin-top: 10px;
     background-color: var(--color-primary);
+}
+
+/* Login */
+
+.login-container {
+    background: linear-gradient(rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)),
+        url("http://3.bp.blogspot.com/-_Y3gvOjwG5k/UNOIhoW8-YI/AAAAAAAABEw/EF3v1eSqI9w/s1600/P1050281.JPG") center;
+
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrapper {
+    background-color: white;
+    width: 35%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
+
+#message {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 5px 25px 1px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#message p {
+    padding: 0px 35px;
+    font-size: 14px;
+
+}
+
+#message h6 {
+    font-weight: 600;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #05690f !important;
+    border-color: #ffffff;
+}
+
+.btn-primary:disabled {
+    border-color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #0b8a18 !important;
+}
+
+#login-button {
+    margin-top: 60px;
+    right: 10px;
+    position: relative;
+    float: right;
 }
