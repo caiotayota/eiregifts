@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #023107;
+    --color-primary: #03550c;
 }
 
 * {
@@ -220,9 +220,47 @@ a:hover {
     background-color: #0b8a18 !important;
 }
 
+#login-form p {
+    font-size: 12px;
+}
+
 #login-button {
-    margin-top: 60px;
+    margin-top: 35px;
     right: 10px;
     position: relative;
     float: right;
+}
+
+/* Categories */
+.products-container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.product-card {
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    overflow-wrap: break-word;
+    
+}
+.product-card:hover {
+    border: 1px solid #0b8a18;
+    transform: scale(1.1);
+}
+
+.products-container h1{
+    font-size: 50px;
+}
+
+.products-container p{
+    font-size: 22px;
+}
+
+
+.price {
+    text-align: right;
+    font-weight: 600;
 }
