@@ -34,3 +34,16 @@ $("#password").keyup(function () {
         $("#length").addClass("valid");
     }
 });
+
+
+
+var basket = [];
+
+function addProduct() {
+    basket.push("teste");
+    console.log(basket);
+}
+
+function test() {
+    console.log(basket);
+}

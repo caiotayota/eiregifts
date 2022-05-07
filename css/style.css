@@ -53,10 +53,6 @@ a:hover {
 
 /* Carousel */
 
-/* .carousel-inner p{
-    overflow-y: ;
-} */
-
 .carousel-item img {
     object-fit: scale-down;
     height: 60%;
@@ -263,12 +259,20 @@ a:hover {
 .product-card {
     border: 1px solid #eeeeee;
     border-radius: 5px;
-    cursor: pointer;
     margin: 10px;
     overflow-wrap: break-word;
-    
-    
 }
+
+.product-card-inactive {
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    margin: 10px;
+    overflow-wrap: break-word;
+    opacity: 50%;
+}
+
+
+
 .product-card:hover {
     border: 1px solid #0b8a18;
     transform: scale(1.1);
