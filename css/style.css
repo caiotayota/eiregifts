@@ -222,6 +222,27 @@ a:hover {
     font-weight: 600;
 }
 
+#confirmMessage {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 5px 25px 1px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#confirmMessage p {
+    padding: 0px 35px;
+    font-size: 14px;
+    text-transform: var("DAA");
+
+}
+
+#confirmMessage h6 {
+    font-weight: 600;
+}
+
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:active,
@@ -247,6 +268,40 @@ a:hover {
     right: 10px;
     position: relative;
     float: right;
+}
+
+/* Register */
+
+.register-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)),
+        url("https://cdn.wallpapersafari.com/78/71/UJwYKy.jpg") center;
+
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    /* overflow: scroll; */
+}
+
+.register-wrapper {
+    height: 70vh;
+    background-color: white;
+    width: 70%;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 50px;
+    top: 20px;
+    overflow-y: scroll;
+}
+
+.register-wrapper button {
+    margin-top: 20px;
+}
+
+.register-wrapper h1 {
+    margin-bottom: 40px;
 }
 
 /* Categories */
@@ -357,8 +412,15 @@ a:hover {
         width: 95%;
     }
 
+    .register-wrapper {
+        width: 95%;
+        min-width: 300px;
+    }
+
     .formsize {
         width: 95%;
         padding: 10px;
     }
+
+    
 }
